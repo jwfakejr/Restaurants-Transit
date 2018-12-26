@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C46C71991E4E2A12003187FC /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = C46C71901E4E2A12003187FC /* bus.png */; };
+		C46C719A1E4E2A12003187FC /* restaurant-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C46C71911E4E2A12003187FC /* restaurant-1.jpeg */; };
+		C46C719B1E4E2A12003187FC /* restaurant-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C46C71921E4E2A12003187FC /* restaurant-2.jpeg */; };
+		C46C719C1E4E2A12003187FC /* restaurant-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C46C71931E4E2A12003187FC /* restaurant-3.jpeg */; };
+		C46C719D1E4E2A12003187FC /* restaurant-4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C46C71941E4E2A12003187FC /* restaurant-4.jpeg */; };
+		C46C719E1E4E2A12003187FC /* restaurant-5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C46C71951E4E2A12003187FC /* restaurant-5.jpeg */; };
+		C46C719F1E4E2A12003187FC /* restaurant-6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C46C71961E4E2A12003187FC /* restaurant-6.jpeg */; };
+		C46C71A01E4E2A12003187FC /* restaurant-7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C46C71971E4E2A12003187FC /* restaurant-7.jpeg */; };
+		C46C71A11E4E2A12003187FC /* restaurant-8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C46C71981E4E2A12003187FC /* restaurant-8.jpeg */; };
 		C48E98201E4DD74900A679CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E981F1E4DD74900A679CD /* AppDelegate.swift */; };
 		C48E98221E4DD74900A679CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E98211E4DD74900A679CD /* ViewController.swift */; };
 		C48E98251E4DD74900A679CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E98231E4DD74900A679CD /* Main.storyboard */; };
@@ -14,6 +23,7 @@
 		C48E982A1E4DD74900A679CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C48E98281E4DD74900A679CD /* LaunchScreen.storyboard */; };
 		C48E98351E4DD74900A679CD /* Restaurants_TransitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E98341E4DD74900A679CD /* Restaurants_TransitTests.swift */; };
 		C48E98401E4DD74900A679CD /* Restaurants_TransitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48E983F1E4DD74900A679CD /* Restaurants_TransitUITests.swift */; };
+		C4DE1F651E4E5AB400A119D1 /* RestaurantAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DE1F641E4E5AB400A119D1 /* RestaurantAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C46C71901E4E2A12003187FC /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		C46C71911E4E2A12003187FC /* restaurant-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant-1.jpeg"; sourceTree = "<group>"; };
+		C46C71921E4E2A12003187FC /* restaurant-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant-2.jpeg"; sourceTree = "<group>"; };
+		C46C71931E4E2A12003187FC /* restaurant-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant-3.jpeg"; sourceTree = "<group>"; };
+		C46C71941E4E2A12003187FC /* restaurant-4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant-4.jpeg"; sourceTree = "<group>"; };
+		C46C71951E4E2A12003187FC /* restaurant-5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant-5.jpeg"; sourceTree = "<group>"; };
+		C46C71961E4E2A12003187FC /* restaurant-6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant-6.jpeg"; sourceTree = "<group>"; };
+		C46C71971E4E2A12003187FC /* restaurant-7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant-7.jpeg"; sourceTree = "<group>"; };
+		C46C71981E4E2A12003187FC /* restaurant-8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "restaurant-8.jpeg"; sourceTree = "<group>"; };
 		C48E981C1E4DD74900A679CD /* Restaurants Transit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurants Transit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E981F1E4DD74900A679CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C48E98211E4DD74900A679CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,7 @@
 		C48E983B1E4DD74900A679CD /* Restaurants TransitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Restaurants TransitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48E983F1E4DD74900A679CD /* Restaurants_TransitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurants_TransitUITests.swift; sourceTree = "<group>"; };
 		C48E98411E4DD74900A679CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DE1F641E4E5AB400A119D1 /* RestaurantAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +119,20 @@
 			children = (
 				C48E981F1E4DD74900A679CD /* AppDelegate.swift */,
 				C48E98211E4DD74900A679CD /* ViewController.swift */,
+				C4DE1F641E4E5AB400A119D1 /* RestaurantAnnotation.swift */,
 				C48E98231E4DD74900A679CD /* Main.storyboard */,
 				C48E98261E4DD74900A679CD /* Assets.xcassets */,
 				C48E98281E4DD74900A679CD /* LaunchScreen.storyboard */,
 				C48E982B1E4DD74900A679CD /* Info.plist */,
+				C46C71901E4E2A12003187FC /* bus.png */,
+				C46C71911E4E2A12003187FC /* restaurant-1.jpeg */,
+				C46C71921E4E2A12003187FC /* restaurant-2.jpeg */,
+				C46C71931E4E2A12003187FC /* restaurant-3.jpeg */,
+				C46C71941E4E2A12003187FC /* restaurant-4.jpeg */,
+				C46C71951E4E2A12003187FC /* restaurant-5.jpeg */,
+				C46C71961E4E2A12003187FC /* restaurant-6.jpeg */,
+				C46C71971E4E2A12003187FC /* restaurant-7.jpeg */,
+				C46C71981E4E2A12003187FC /* restaurant-8.jpeg */,
 			);
 			path = "Restaurants Transit";
 			sourceTree = "<group>";
@@ -232,9 +262,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46C71991E4E2A12003187FC /* bus.png in Resources */,
+				C46C719B1E4E2A12003187FC /* restaurant-2.jpeg in Resources */,
 				C48E982A1E4DD74900A679CD /* LaunchScreen.storyboard in Resources */,
+				C46C719A1E4E2A12003187FC /* restaurant-1.jpeg in Resources */,
+				C46C719E1E4E2A12003187FC /* restaurant-5.jpeg in Resources */,
 				C48E98271E4DD74900A679CD /* Assets.xcassets in Resources */,
 				C48E98251E4DD74900A679CD /* Main.storyboard in Resources */,
+				C46C71A11E4E2A12003187FC /* restaurant-8.jpeg in Resources */,
+				C46C719F1E4E2A12003187FC /* restaurant-6.jpeg in Resources */,
+				C46C719C1E4E2A12003187FC /* restaurant-3.jpeg in Resources */,
+				C46C719D1E4E2A12003187FC /* restaurant-4.jpeg in Resources */,
+				C46C71A01E4E2A12003187FC /* restaurant-7.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C48E98221E4DD74900A679CD /* ViewController.swift in Sources */,
+				C4DE1F651E4E5AB400A119D1 /* RestaurantAnnotation.swift in Sources */,
 				C48E98201E4DD74900A679CD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +545,7 @@
 				C48E98461E4DD74900A679CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C48E98471E4DD74900A679CD /* Build configuration list for PBXNativeTarget "Restaurants TransitTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +554,7 @@
 				C48E98491E4DD74900A679CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C48E984A1E4DD74900A679CD /* Build configuration list for PBXNativeTarget "Restaurants TransitUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +563,7 @@
 				C48E984C1E4DD74900A679CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
